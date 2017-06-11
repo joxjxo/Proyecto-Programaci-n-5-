@@ -60,8 +60,10 @@
       <DependentUpon>BD.settings</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IProducto.cs" />
+    <Compile Include="Interfaces\Iproyectos.cs" />
     <Compile Include="Interfaces\IUsuario.cs" />
     <Compile Include="Metodos\MProducto.cs" />
+    <Compile Include="Metodos\Mproyectos.cs" />
     <Compile Include="Metodos\MUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
