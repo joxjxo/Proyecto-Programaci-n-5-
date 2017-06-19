@@ -10,39 +10,40 @@ using System.Data;
 
 namespace Lec03.DAL.Metodos
 {
-    public class MProducto : IProducto
+    public class Mroll : Iroll
     {
         private OrmLiteConnectionFactory _conexion;
         private IDbConnection _db;
-        public MProducto()
+        public Mroll()
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
                 SqlServerDialect.Provider);
             _db = _conexion.Open();
         }
-        public List<Producto> ListarProductos()
+
+        public void ActualizarRoll(roll roll)
         {
-            return _db.Select<Producto>();
+            _db.Update(roll);
         }
 
-        public Producto BuscarProducto(int idProducto)
+        public roll BuscarRoll(int idroll)
         {
-            return _db.Select<Producto>(x => x.IdProducto == idProducto).FirstOrDefault();
+            return _db.Select<roll>(x => x.IDR == idroll).FirstOrDefault();
         }
 
-        public void InsertarProducto(Producto producto)
+        public void EliminarRoll(int idroll)
         {
-            _db.Insert(producto);
+            _db.Delete<roll>(x => x.IDR == idroll);
         }
 
-        public void ActualizarProducto(Producto producto)
+        public void InsertarRoll(roll roll)
         {
-            _db.Update(producto);
+            _db.Insert<roll>();
         }
 
-        public void EliminarProducto(int idProducto)
+        public List<roll> ListarRoll()
         {
-            _db.Delete<Producto>(x => x.IdProducto == idProducto);
+            return _db.Select<roll>();
         }
     }
 }

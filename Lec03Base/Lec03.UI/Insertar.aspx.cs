@@ -24,7 +24,7 @@ namespace Lec03.UI
             {
                 string nombreArchivo = Path.GetFileName(fileImagen.FileName);
                 fileImagen.SaveAs(Server.MapPath("~/Imagenes/") + nombreArchivo);
-                Producto producto = new Producto
+                datoscotizador producto = new datoscotizador
                 {
                     Nombre = txtNombre.Text,
                     Descripcion = txtDescripcion.Text,
@@ -32,7 +32,7 @@ namespace Lec03.UI
                     Cantidad = Convert.ToInt32(txtCantidad.Text),
                     Imagen = "~/Imagenes/" + nombreArchivo
                 };
-                IProducto prod = new MProducto();
+                Idatoscotizador prod = new Mdatoscotizador();
                 prod.InsertarProducto(producto);
                 MostarMensaje("Producto Insertado");
             }

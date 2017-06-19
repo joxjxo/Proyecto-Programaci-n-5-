@@ -39,10 +39,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IProducto.cs" />
-    <Compile Include="Interfaces\IUsuario.cs" />
-    <Compile Include="Metodos\MProducto.cs" />
-    <Compile Include="Metodos\MUsuario.cs" />
+    <Compile Include="Interfaces\Idatosclientecs.cs" />
+    <Compile Include="Interfaces\Idatoscotizador.cs" />
+    <Compile Include="Interfaces\Iproyectos.cs" />
+    <Compile Include="Interfaces\Icategoriaacabado.cs" />
+    <Compile Include="Interfaces\Iroll.cs" />
+    <Compile Include="Interfaces\Itrabajadores.cs" />
+    <Compile Include="Interfaces\Itrabajadoreslogeo.cs" />
+    <Compile Include="Metodos\Mcategoriaacabado.cs" />
+    <Compile Include="Metodos\Mdatoscliente.cs" />
+    <Compile Include="Metodos\Mdatoscotizador.cs" />
+    <Compile Include="Metodos\Mproyecto.cs" />
+    <Compile Include="Metodos\Mroll.cs" />
+    <Compile Include="Metodos\Mtrabajadores.cs" />
+    <Compile Include="Metodos\Mtrabajadoreslogeo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

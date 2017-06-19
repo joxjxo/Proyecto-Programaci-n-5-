@@ -20,3 +20,8 @@ C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.DATA\bin\Debug\ServiceStack.Interf
 C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.DATA\obj\Debug\Lec03.DATA.csprojResolveAssemblyReference.cache
 C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.DATA\obj\Debug\Lec03.DATA.dll
 C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.DATA\obj\Debug\Lec03.DATA.pdb
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.DATA\bin\Debug\Lec03.DATA.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.DATA\bin\Debug\Lec03.DATA.pdb
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.DATA\obj\Debug\Lec03.DATA.csprojResolveAssemblyReference.cache
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.DATA\obj\Debug\Lec03.DATA.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.DATA\obj\Debug\Lec03.DATA.pdb

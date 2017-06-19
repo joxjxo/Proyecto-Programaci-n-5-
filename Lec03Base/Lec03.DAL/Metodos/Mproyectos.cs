@@ -22,27 +22,27 @@ namespace Lec03.DAL.Metodos
         }
         public void Actualizarproyectos(proyectos proyectos)
         {
-            throw new NotImplementedException();
+            _db.Update(proyectos);
         }
 
-        public proyectos Buscarproyectos(int IDP)
+        public proyectos Buscarproyectos(int idp)
         {
-            throw new NotImplementedException();
+            return _db.Select<proyectos>(x => x.IDP == idp).FirstOrDefault(); 
         }
 
-        public void Eliminarproyectos(int IDP)
+        public void Eliminarproyectos(int idp)
         {
-            throw new NotImplementedException();
+            _db.Delete<proyectos>(x => x.IDP == idp);
         }
 
         public void Insertarproyectos(proyectos proyectos)
         {
-            throw new NotImplementedException();
+            _db.Insert<proyectos>();
         }
 
         public List<proyectos> Listarproyectos()
         {
-            throw new NotImplementedException();
+            return _db.Select<proyectos>();
         }
     }
 }

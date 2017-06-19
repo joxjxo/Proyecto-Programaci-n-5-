@@ -21,7 +21,7 @@ namespace Lec03.UI
         {
             try
             {
-                IUsuario usu = new MUsuario();
+                Icategoriaacabado usu = new Mcategoriaacabado();
                 var usuario = usu.BuscarUsuario(txtUsuario.Text, Encriptacion.Encriptar(txtContra.Text));
                 if (usuario != null)
                 {

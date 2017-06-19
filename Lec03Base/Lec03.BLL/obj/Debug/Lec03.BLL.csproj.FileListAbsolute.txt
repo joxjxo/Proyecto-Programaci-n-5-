@@ -49,3 +49,17 @@ C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.BLL\bin\Debug\Lec03.DATA.pdb
 C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.BLL\obj\Debug\Lec03.BLL.csprojResolveAssemblyReference.cache
 C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.BLL\obj\Debug\Lec03.BLL.dll
 C:\Users\Laboratorios\Desktop\Lec03Base\Lec03.BLL\obj\Debug\Lec03.BLL.pdb
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\Lec03.BLL.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\Lec03.BLL.pdb
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\Lec03.DAL.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\Lec03.DATA.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\ServiceStack.Common.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\ServiceStack.Text.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\Lec03.DAL.pdb
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\bin\Debug\Lec03.DATA.pdb
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\obj\Debug\Lec03.BLL.csprojResolveAssemblyReference.cache
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\obj\Debug\Lec03.BLL.dll
+C:\Users\ignacio\Source\Repos\Proyecto-Programaci-n-5-\Lec03Base\Lec03.BLL\obj\Debug\Lec03.BLL.pdb

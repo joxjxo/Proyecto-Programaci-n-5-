@@ -12,7 +12,7 @@ namespace Lec03.UI
 {
     public partial class Mantenimiento : System.Web.UI.Page
     {
-        IProducto prod = new MProducto();
+        Idatoscotizador prod = new Mdatoscotizador();
         protected void Page_Load(object sender, EventArgs e)
         {
             divMantenimiento.Visible = false;
@@ -48,7 +48,7 @@ namespace Lec03.UI
         {
             try
             {
-                Producto producto = new Producto
+                datoscotizador producto = new datoscotizador
                 {
                     IdProducto = Convert.ToInt32(txtIdProducto.Text),
                     Nombre = txtNombre.Text,
@@ -57,7 +57,7 @@ namespace Lec03.UI
                     Cantidad = Convert.ToInt32(txtCantidad.Text),
                     Imagen = txtImagen.Text
                 };
-                IProducto prod = new MProducto();
+                Idatoscotizador prod = new Mdatoscotizador();
                 prod.ActualizarProducto(producto);
                 MostarMensaje("Producto Modificado");
                 divMantenimiento.Visible = false;

@@ -10,9 +10,9 @@ namespace Lec03.DAL.Interfaces
     public interface Iproyectos
     {
         List<proyectos>  Listarproyectos();
-        proyectos Buscarproyectos(int IDP);
+        proyectos Buscarproyectos(int idp);
         void Insertarproyectos(proyectos proyectos);
         void Actualizarproyectos(proyectos proyectos);
-        void Eliminarproyectos(int IDP);
+        void Eliminarproyectos(int idp);
     }
 }

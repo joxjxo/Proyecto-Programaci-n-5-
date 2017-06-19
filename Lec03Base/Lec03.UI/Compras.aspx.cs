@@ -13,7 +13,7 @@ namespace Lec03.UI
     public partial class Compras : System.Web.UI.Page
     {
         private int cantidad;
-        IProducto prod = new MProducto();
+        Idatoscotizador prod = new Mdatoscotizador();
         protected void Page_Load(object sender, EventArgs e)
         {
             try

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lec03.DATA
 {
-    class trabajadoreslogeo
+    public class trabajadoreslogeo
     {
         public int IDTL { get; set; }
         public string Contraseña { get; set; }

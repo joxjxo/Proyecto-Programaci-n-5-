@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lec03.DATA
 {
-    class roll
+    public class roll
     {
         public int IDR { get; set; }
         public string descripcion{ get; set; }

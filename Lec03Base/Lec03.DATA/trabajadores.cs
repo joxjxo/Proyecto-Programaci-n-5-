@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lec03.DATA
 {
-    class trabajadores
+    public class trabajadores
     {
         public int IDT { get; set; }
         public int cedula { get; set; }
